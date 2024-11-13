@@ -8,6 +8,12 @@ function esVocal(letra) {
   // "n" ---> "Dato incorrecto"
   // "texto largo" ---> "Dato incorrecto"
   // Tu código:
+  if(letra==="a" || letra==="e" || letra==="i" || letra==="o" || letra==="u"){
+    rta="Es Vocal";
+  }else{
+    rta="Dato Incorrecto"
+  }
+  return rta;
 }
 
 module.exports = esVocal;

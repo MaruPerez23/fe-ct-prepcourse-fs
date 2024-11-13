@@ -6,6 +6,15 @@ function tienenMismaLongitud(str1, str2) {
   // "SoyHenry", "HenrySoy" ---> true 
   // "hi", "there" ---> false 
   // Tu código:
+  var a= str1.split( ).length;
+  var b= str2.split( ).length;
+
+  if(a==b){
+    rta= true;
+  }else{
+    rta=false;
+  }
+  return rta;
 }
 
 module.exports = tienenMismaLongitud;
